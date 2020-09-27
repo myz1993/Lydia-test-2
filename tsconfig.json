@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
     "declaration": true,
     "baseUrl": ".",
     "module": "esnext",
@@ -33,4 +34,3 @@
     "*.js"
   ]
 }
-s
