@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import Icon from './icon';
 //import wechat from '../Icons/wechat.svg';
 
-const fn = () => {
-  console.log('fn');
+const fn: React.MouseEventHandler = (e) => {
+  console.log(e.target);
 };
 ReactDOM.render(
   <div>
